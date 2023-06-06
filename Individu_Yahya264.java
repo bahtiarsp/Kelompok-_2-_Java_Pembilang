@@ -1,7 +1,3 @@
-/**
- *
- * @author yahya
- */
 public class Individu_Yahya264 {
        public static void main(String[] args) {
         String nama = "Yahya Khaliman Indrayana";
