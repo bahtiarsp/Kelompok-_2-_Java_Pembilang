@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.pembilangangka;
 
 import java.util.Scanner;
@@ -11,13 +7,10 @@ import java.util.Scanner;
  * @author yahya
  */
 public class PembilangAngka {
-    // Daftar kata untuk mewakili angka 0 hingga 9
     private static final String[] kataAngka = {"nol", "se", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
 
-    // Daftar kata untuk mewakili angka 10 hingga 90 dengan interval 10
     private static final String[] kataPuluhan = {"sepuluh", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
 
-    // Daftar kata khusus untuk angka 11 hingga 19
     private static final String[] kataKhusus = {"sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
 
     public static String ubahAngkaKeKata(long angka) {
